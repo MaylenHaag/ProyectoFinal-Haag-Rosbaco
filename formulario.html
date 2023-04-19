@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario de Usuario </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div>
+        <h1> Formulario </h1>
+        <h1> Ingrese sus datos: </h1>
+    </div>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"><br>
+
+        <label for="sexo">Sexo:</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="sexo" value="femenino">
+        <label for="femenino">Femenino</label><br>
+
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni"><br>
+
+        <button type="button" onclick="guardarUsuario()">Guardar</button>
+        <button type="button" onclick="modificarDOM()"> Listar Usuarios</button>
+
+    </form>
+    <div id="mensajes">
+        <h6></h6>
+    </div>
+    <div id="lista-usuarios">
+        <ul></ul>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+
+</html>

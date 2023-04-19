@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+form {
+    margin: 1rem auto;
+    max-width: 400px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"]  {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+#mensajes {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#lista-usuarios {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: monospace;
+    white-space: pre;
+    overflow-x: auto;
+}
